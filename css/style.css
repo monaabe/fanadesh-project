@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+html{
+    height: 400px;
+}
+
+
+
+.masthead{
+    background-image: url("/images/hero-bg.png");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200vh;
+    width: 100%;
+    
+    
+    
+
+}
+
+.d-flex{
+    
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+}
+.bestway h1{
+    font-size: 50px;
+    text-align: left;
+    margin-right: 30px;
+}
+
+.bestway p{
+    
+    text-align: left;
+    margin-right: 30px;
+    margin-top: 20px;
+    
+
+}
+.bestway .btn{
+    font-size: 14.5px;
+     
+     padding-left:50px ;
+     padding-right: 50px;
+     
+     text-align: center;
+
+   /*square*/
+
+}
+.sq{
+display: flex;
+
+
+}
+
+.sq i{
+    height: auto;
+    width: auto;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50%;
+    margin-top: -30%;
+    margin-left: 75px;
+    
+}
+
+
+/*about*/
+
+
+
+.ab p,.admission p,.why-learn p,.determine p{
+   font-size: 20px;
+}
+
+
+ .admission,.determine{
+    text-align:left ;
+}
+
+.why-learn,.ab{
+    text-align: right;
+}
+
+.carousel-caption{
+    color: black;
+    margin-left: 15%;
+    margin-bottom: 55px;
+    text-align: left;
+    
+}
+
+.carousel-caption h1{
+    padding: 20px;
+}
+.carousel-caption h3{
+    color: rgba(241, 137, 9, 0.801);
+}
+.alex{
+    text-align: center;
+    
+}
+.client{
+    position: relative;
+}
+.client .carousel-indicators{
+    position: absolute;
+    left:55%;
+    width: 35%;
+}
+
+.client .carousel-indicators li{
+    width:25px;
+    height: 25px;
+    background-color: rgba(24, 189, 134, 0.945);
+    border-radius: 100%;
+}
+.client .carousel-indicators .active{
+    background-color: gold;
+}
+.client-hnfo h2{
+    color: gold;
+}
+
+
+form{
+    
+}
+
+
+.connect-us input{
+    border: none;
+    border-bottom: 1px black solid ;
+    width: 52%;
+    font-size: 
+    
+}
+
+.connect-us button{
+    color:aliceblue;
+    font-size: 15px;
+    
+    padding: 10px 15px;
+    
+}
+
+.connect-us button:hover{
+    color: aliceblue;
+}
+.useful{
+    position: relative;
+    margin:  90px 0px;
+    height: 85%;
+    
+    
+    
+    
+}
+.useful  h2{
+    position:relative;
+    color: antiquewhite;
+    border-bottom: 2px solid rgb(199, 176, 47);
+    width: 16%;
+    margin-left: 42%;
+    margin-bottom: 20px;
+    
+    
+    
+}
+
+.useful .us{
+    color: white;
+}
+.our p{
+    color: aliceblue;
+    
+}
+.our{
+    text-align: left;
+}
+
+.our a{
+    text-decoration: none;
+    display: block;
+    color: aliceblue;
+    
+
+}
+.us{
+    text-align: ;
+}
+.our button{
+    color:aliceblue
+}
+.our button :hover{
+    color: aliceblue;
+}
+
+.useful .row{
+    border-bottom: .9px solid white;
+}
+
+.social i{
+    
+    color: aliceblue;
+    font-size: 30px;
+    
+}
+
+
+.rights-footer p{
+    color: aliceblue;
+    
+}
+.footer{
+    position: absolute;
+    margin-bottom: 0;
+    
+
+    
+    
+}
+
+
+@media(max-width:768px){
+
+    .masthead{
+        background-size: cover;
+    }
+    .client{
+        flex-direction: column;
+        position: relative;
+    }
+    .client .carousel-indicators{
+        position:absolute;
+        margin-top: 60px;
+    }
+    
+   
+}
+@media(max-width:580px){
+    .contact .connect-us #con{
+        width: 100%;
+    }
+}
